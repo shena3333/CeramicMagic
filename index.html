@@ -14,34 +14,48 @@
 </head>
 
 <body>
-    <header class="menu">
-        <div class="button">
-            <a class='element-menu' href="#about-me">Обо мне</a>
-        </div>
-        <div class="button">
-            <a class='element-menu' href="#vase">Вазы</a>
-        </div>
-        <div class="button">
-            <a class='element-menu' href="#candelabrum">Подсвечники</a>
-        </div>
-        <div class="button">
-            <a class='element-menu' href="#brooch">Броши</a>
-        </div>
-        <div class="button">
-            <a class='element-menu' href="#lamp">Аромалампа</a>
-        </div>
-        <div class="button">
-            <a class='element-menu' href="#footer">Контакты</a>
+    <header>
+        <nav class="menu">
+            <div class="button">
+                <a class='element-menu' href="#about-me">Обо мне</a>
+            </div>
+            <div class="button">
+                <a class='element-menu' href="#vase">Вазы</a>
+            </div>
+            <div class="button">
+                <a class='element-menu' href="#candelabrum">Подсвечники</a>
+            </div>
+            <div class="button">
+                <a class='element-menu' href="#brooch">Броши</a>
+            </div>
+            <div class="button">
+                <a class='element-menu' href="#lamp">Аромалампа</a>
+            </div>
+            <div class="button">
+                <a class='element-menu' href="#footer">Контакты</a>
+            </div>
+        </nav>
+        <div class="title-container">
+            <h1 class="title">Ceramic Magic</h1>
         </div>
     </header>
 
     <main class="main">
-        <div class="title-container">    
-        <h1 class="title">Ceramic Magic</h1>
-    </div>
+
         <section id='about-me'>
-                Приветствую на Ceramic Magic - странице изделий из керамики. Меня зовут Диана Мельниченко. Я окончила курсы в Академии Керамики и теперь изготавливаю посуду, декор, подсвечники и другие изделия. Изделия прочные, обжигаются при высокой температуре, используются глазури пищевые. Все изделия ручной работы, в каждую вложена частичка души. 
-                Этими милыми вещами Вы можете порадовать себя или своих близких. Такие керамические изделия придадут вашему дому уют и красоту.
+            <div>Приветствую на Ceramic Magic - странице изделий из керамики. Меня зовут Диана. Я прошла обучение
+            в Академии Керамики и теперь занимаюсь любимым делом, вкладывая душу: изготавливаю посуду, декор,
+            подсвечники и другие изделия. Изделия прочные,
+            обжигаются при высокой температуре, используются глазури пищевые. Все изделия ручной работы, в каждую
+            вложена частичка души. Этими милыми вещами Вы можете порадовать себя или своих близких. Такие керамические
+            изделия придадут вашему
+            дому уют и красоту.</div>
+            <div class="contact-element">
+                <p class="subtitle">По всем вопросам звоните:</p>
+                <a class='' href="tel:+79112477067">
+                    +7911-247-70-67
+                </a>
+            </div>
         </section>
         <section id="vase">
             <p class="subtitle">Вазы</p>
@@ -63,7 +77,7 @@
                 <img class='photo' src="./img/br2.jpg" alt="bronch">
                 <img class='photo' src="./img/br3.jpg" alt="bronch">
                 <img class='photo' src="./img/br4.jpg" alt="bronch">
-                <img class='photo' src="./img/br5.jpg" alt="bronch">
+                <!-- <img class='photo' src="./img/br5.jpg" alt="bronch"> -->
             </div>
         </section>
         <section id="lamp">
@@ -72,12 +86,43 @@
                 <img class='photo' src="./img/lamp1.jpg" alt="bronch">
             </div>
         </section>
+        <section>
+            <p>Если Вам понравились примеры работ или у Вас есть свои идеи для воплощения, тогда звоните или пишите и
+                обсудим детали. Срок изготовления для небольшого изделия - одна неделя, для больших - две недели.</p>
+                <p class="subtitle">Стоимость</p>
+            <div class="price-container">
+                <p class="name-goods goods">Подсвечник</p>
+               <div><p class="price-goods goods">от 300 руб.</p></div>
+                <p class="name-goods goods">Кружка</p>
+                <div><p class="price-goods goods">от 500 оуб.</p></div>
+                <p class="name-goods goods">Брошь</p>
+                <div><p class="price-goods goods">от 300 руб.</p></div>
+                <p class="name-goods goods">Аромалампа</p>
+                <div><p class="price-goods goods">от 500 руб.</p></div>
+                <p class="name-goods goods">Ваза</p>
+                <div><p class="price-goods goods">от 1000 руб.</p></div>
+            </div>
+        </section>
     </main>
     <footer class='footer' id="footer">
-            <div class="contact-element">Звони: <a class='' href="tel:+79112477067">+7911-247-70-67</a></div>
-            <div class="contact-element">Пиши: <a href="https://t.me/Diana181185">Телеграм</a></div>
-            <div class="contact-element">Пиши: <a href="https://www.instagram.com/dernovaevent/">Инстаграм</a>
+        <div class="contact-element">
+            <a class='' href="tel:+79112477067">
+                <img class='icon' src="./img/phone.png" alt="phone">
+            </a>
+        </div>
+        <div class="contact-element">
+            <a href="https://t.me/Diana181185">
+                <img class='icon' src="./img/telegram.png" alt="telegram">
+            </a>
+        </div>
+        <div class="contact-element">
+            <a href="https://www.instagram.com/diana.7576">
+                <img class='icon' src="./img/instagram.png" alt="instagram">
+            </a>
+        </div>
+
     </footer>
 </body>
+
 
 </html>
