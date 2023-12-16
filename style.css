@@ -1,13 +1,15 @@
 .menu{
- background-color: aquamarine;
+ background-color: #9966cc;
  display: flex;
  justify-content: space-around;
- height: 25px;
+ height: 30px;
  font-size: 20px;
 font-weight: 700;
 }
 .footer{
-    background-color: aquamarine;
+    background-color:#9966cc;
+    display: flex;
+    justify-content: space-around;
 }
 .photo {
     width: 200px;
@@ -29,3 +31,42 @@ font-weight: 700;
 font-weight: 800;
 color: brown;
 }
+.element-menu {
+    text-decoration: none;
+    color: white;
+}
+.title-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+.title-container .title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    animation: 2s neon-2 alternate-reverse infinite;
+  }
+  
+  @keyframes neon-2 {
+    from {
+      text-shadow: 0 0 5px  #bd98de,
+        0 0 10px  #ac84cf,
+        0 0 15px  #bd98de,
+        0 0 20px  #ac86ce;
+    }
+  
+    to {
+      text-shadow: 0 0 20px  #bd98de,
+        0 0 35px #bd98de,
+        0 0 40px  #bd98de,
+        0 0 50px #a881ca,
+        0 0 800px #755591;
+    }
+  }
+  .contact-element{
+    padding: 5px;
+  }
