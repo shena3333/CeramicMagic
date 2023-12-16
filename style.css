@@ -1,0 +1,12 @@
+.menu{
+ background-color: aquamarine;
+ display: flex;
+ justify-content: space-around;
+}
+.footer{
+    background-color: aquamarine;
+}
+.photo {
+    width: 200px;
+    height: 200px;
+}
