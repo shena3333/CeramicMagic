@@ -23,6 +23,10 @@
   margin: 15px;
 }
 
+.photo-long {
+  width: 350px;
+}
+
 .photo:hover {
   box-shadow: 10px 10px 30px #9966cc;
   transform: scale(1.4);
@@ -42,6 +46,7 @@
 .element-menu {
   text-decoration: none;
   color: white;
+  padding: 4px;
 }
 
 .title-container {
@@ -82,12 +87,21 @@
   background: linear-gradient(90deg, #cda0fa, #9966cc);
   padding-left: 20px;
 }
-.goods{
+
+.goods {
   margin: 0;
   height: 25px;
   font-size: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.phone {
+  background-color: #9966cc;
+  border-radius: 30px;
+  height: 25px;
+  width: 120px;
+  padding: 12px;
 }
 
 @keyframes neon-2 {
@@ -109,4 +123,22 @@
 
 .contact-element {
   padding: 5px;
+}
+
+
+@media screen and (max-width: 960px) {
+  .menu-media {
+    background-color: white;
+    flex-wrap: wrap;
+  }
+  .button {
+    background-color: #9966cc;
+    border-radius: 15px;
+    height: 28px;
+  }
+  
+}
+
+.header {
+  margin-bottom: 10px;
 }
