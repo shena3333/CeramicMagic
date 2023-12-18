@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .menu {
   background-color: #9966cc;
   display: flex;
@@ -89,15 +90,19 @@ body {
 .top-left-grid {
   border-radius: 10px 0 0 0;
 }
+
 .top-right-grid {
   border-radius: 0 10px 0 0;
 }
-.bottom-left-grid{
+
+.bottom-left-grid {
   border-radius: 0 0 0 10px;
 }
-.bottom-right-grid{
+
+.bottom-right-grid {
   border-radius: 0 0 10px 0;
 }
+
 .name-goods {
   background: linear-gradient(90deg, #9966cc, #cda0fa);
   padding-left: 10px;
@@ -127,10 +132,14 @@ body {
 
 .number-phone {
   padding-top: 8px;
+  font-size: 18px;
+  font-weight: 900;
 }
+
 .text {
   font-size: 20px;
   text-align: justify;
+  padding: 15px;
 }
 
 @keyframes neon-2 {
@@ -159,7 +168,6 @@ body {
   height: 200px;
   border: solid 3px #9966cc;
   border-radius: 15px;
-
 }
 
 
@@ -184,10 +192,13 @@ body {
     color: white;
     font-size: 18px;
   }
+
   .text {
     font-size: 16px;
+    padding: 10px;
   }
 }
-.container-bronch{
+
+.container-bronch {
   flex-wrap: wrap;
 }
