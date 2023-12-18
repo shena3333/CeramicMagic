@@ -8,6 +8,7 @@
   padding-top: 10px;
 }
 
+
 .footer {
   background-color: #9966cc;
   display: flex;
@@ -135,10 +136,15 @@
     background-color: #9966cc;
     border-radius: 15px;
     height: 28px;
+    margin: 1px;
+  }
+  .about-me {
+    margin-top: 50px;
+  }
+  .menu-media .element-menu {
+    color: white;
+    font-size: 18px;
   }
   
 }
 
-.header {
-  margin-bottom: 10px;
-}
