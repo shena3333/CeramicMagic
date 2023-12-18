@@ -72,6 +72,9 @@
   width: 50px;
   height: 50px;
 }
+.icon-phone{
+  height: 40px;
+}
 
 .price-container {
   display: grid;
@@ -100,9 +103,13 @@
 .phone {
   background-color: #9966cc;
   border-radius: 30px;
-  height: 25px;
-  width: 120px;
-  padding: 12px;
+  height: 35px;
+  width: 180px;
+  padding-left: 10px;
+  display: flex;
+}
+.number-phone{
+  padding-top: 8px;
 }
 
 @keyframes neon-2 {
@@ -124,6 +131,13 @@
 
 .contact-element {
   padding: 5px;
+}
+.qr{
+  width: 200px;
+  height: 200px;
+  border: solid 3px #9966cc;
+border-radius: 15px;
+
 }
 
 
