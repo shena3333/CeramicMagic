@@ -202,3 +202,20 @@ body {
 .container-bronch {
   flex-wrap: wrap;
 }
+
+.container-wrap {
+  flex-wrap: wrap;
+}
+
+.container-goods {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.description {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
+  width: 190px;
+}
