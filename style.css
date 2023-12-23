@@ -199,10 +199,6 @@ body {
   }
 }
 
-.container-bronch {
-  flex-wrap: wrap;
-}
-
 .container-wrap {
   flex-wrap: wrap;
 }
@@ -210,11 +206,10 @@ body {
 .container-goods {
   display: flex;
   flex-direction: column;
-
+  align-items: center;
 }
 
 .description {
-  margin-left: 10px;
   margin-bottom: 10px;
   text-align: justify;
   width: 190px;
